@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>SpendWise</title>
+</head>
+<body>
+    <div class="page">
+    <div class="web">
+        <h1>SpendWise</h1>
+        <br>
+    </div>
+    <div class="total-container">
+        <h2>Total Balance</h2>
+        <div class="balance">
+            <p id="symbol1">$</p>
+            <span class="income_amount" id="total"></span>
+        </div>
+    </div>
+    <div class="income_expense" >
+    <div class="container" >
+        <h2>Income</h2>
+        <div class="amount">
+            <p id="symbol1">$</p>
+            <span class="income_amount" id="income"></span>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Expenses</h2>
+        <div class="amount">
+            <p id="symbol2">$</p>
+            <span class="expense_amount" id="expense"></span>
+        </div>
+    </div>
+</div>
+    <div class="input_area">
+        <input type="text" id="details" placeholder="Hey what you did today!!">
+        <input type="text" name="" id="amount" placeholder="Amount">
+    </div>
+    <div class="buttons_container">
+        <button id="add_income">Add to Earned</button>
+        <button id="add_expense">Add to Spent</button>
+    </div>
+    <div class="items">
+        <div class="itemincome" id="income_container">
+            <!-- <h2>Income</h2> -->
+            <h3 >I Earned from</h3>
+            <!-- <div class="item_income" id="item1">
+                <h4>stuff</h4>
+            <p id="symbol3">$</p>
+            <span class="income3_amount">1310</span>
+            <i class="far fa-trash-alt"></i>
+        </div> -->
+        <!-- <i class="far fa-trash-alt"></i> -->
+        </div>
+        <div class="itemexpense" id="expense_container">
+            <!-- <h2>Expense</h2> -->
+            <h3 >I Spent on</h3>
+            <!-- <div class="item_expense"> -->
+                <!-- <h4>stuff</h4>
+            <p id="symbol4">$</p>
+            <span class="expense4_amount">13</span>
+            <i class="far fa-trash-alt"></i>
+        </div> -->
+        <!-- <i class="far fa-trash-alt"></i> -->
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
